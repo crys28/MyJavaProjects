@@ -23,7 +23,7 @@ public class Minutes {
              int d = min / 60 / 24 ;
              int h = min / 60 ;
              int s = min * 60 ;
-           //  System.out.println("Result : " + y + " " + "years" + " " + "and" + " " + d + " " + "days");
+          
              System.out.println("Years : " + y);           
              System.out.println("Days : " + d);
              System.out.println("Hours : " + h);
