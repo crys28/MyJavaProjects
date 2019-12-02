@@ -16,18 +16,18 @@ public class Operator {
         
           Scanner sc = new Scanner(System.in);
             System.out.println("Insert your first number : ");
-            double nr1 = sc.nextDouble();
+            int nr1 = sc.nextInt();
             
             System.out.println("Insert your second number : ");
-            double nr2 = sc.nextDouble();
+            int nr2 = sc.nextInt();
             
-            double sum = nr1 + nr2 ;
-            double dif = nr1 - nr2 ;
-            double mul = nr1 * nr2 ;
+            int sum = nr1 + nr2 ;
+            int dif = nr1 - nr2 ;
+            int mul = nr1 * nr2 ;
             double div = nr1 / nr2 ;
             double avr = (nr1 + nr2) / 2 ;
             double rest = nr1 % nr2 ;
-            
+             
             System.out.println("Addition : " + sum);
             System.out.println("Substraction : " + dif);
             System.out.println("Multiplicaton : " + mul);
