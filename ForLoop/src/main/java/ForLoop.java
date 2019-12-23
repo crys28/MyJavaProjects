@@ -15,6 +15,14 @@ public class ForLoop {
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);       
     
+    
+    
+    
+    
+    
+    
+    
+    /*
         System.out.println("Input a positive number :");
         int n = sc.nextInt();
         
@@ -35,6 +43,10 @@ public class ForLoop {
             System.out.print(ctr2 + " ");
         }     
       }
+    */
+    
+    
+    
     
         //******** SHOWS THE NUMBERS DIVISIBILE BY 2 **********//
         
