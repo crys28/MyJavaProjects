@@ -25,14 +25,18 @@ public class Training {
      Scanner sc = new Scanner(System.in);
     
      
+     
      String a = "Jan 1,2020" ; 
-     LocalDate date = LocalDate.parse(a, DateTimeFormatter.ofPattern("dd/MM/YYYY", java.util.Locale.ENGLISH));
-       
      
-     //DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/YYYY");
-       
-      System.out.println(date);
+     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMM d,YYYY" , Locale.US);
      
+     LocalDate date = LocalDate.parse(a, formatter );
+       
+        System.out.println(date);
+     
+       
+    //  System.out.println(date.format(formatter.withLocale(Locale.US)));
+       // System.out.println(date.format(formatter,));
      
      
      
@@ -70,7 +74,7 @@ public class Training {
 //
 //             System.out.print("Day of birth : ");
 //             int d = sc.nextInt();
-//             System.out.print("Month of birth : ");
+//              System.out.print("Month of birth : ");
 //             int m = sc.nextInt();
 //             System.out.print("Year of birth : ");
 //             int ye = sc.nextInt();
