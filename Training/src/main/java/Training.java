@@ -25,7 +25,7 @@ public class Training {
      Scanner sc = new Scanner(System.in);
     
      
-     
+    /* 
      String a = "Jan 1,2020" ; 
      
      DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMM d,YYYY" , Locale.US);
@@ -33,7 +33,7 @@ public class Training {
      LocalDate date = LocalDate.parse(a, formatter );
        
         System.out.println(date);
-     
+     */
        
     //  System.out.println(date.format(formatter.withLocale(Locale.US)));
        // System.out.println(date.format(formatter,));
@@ -69,19 +69,19 @@ public class Training {
 
         
        
-//            LocalDate y = LocalDate.now();
-//             DateTimeFormatter form = DateTimeFormatter.ofPattern("YY");
-//
-//             System.out.print("Day of birth : ");
-//             int d = sc.nextInt();
-//              System.out.print("Month of birth : ");
-//             int m = sc.nextInt();
-//             System.out.print("Year of birth : ");
-//             int ye = sc.nextInt();
-//
-//               Period a = Period.of(ye, m, d);
-//               System.out.println("");
-//               System.out.println("Your age is : " + y.minus(a).format(form));
+            LocalDate y = LocalDate.now();
+             DateTimeFormatter form = DateTimeFormatter.ofPattern("YY");
+
+             System.out.print("Day of birth : ");
+             int d = sc.nextInt();
+              System.out.print("Month of birth : ");
+             int m = sc.nextInt();
+             System.out.print("Year of birth : ");
+             int ye = sc.nextInt();
+
+               Period a = Period.of(ye, m, d);
+               System.out.println("");
+               System.out.println("Your age is : " + y.minus(a).format(form));
        
             
         /***************************************************************/    
